@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		F652146818EF30E400BC3FF9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F652146718EF30E400BC3FF9 /* main.cpp */; };
 		F652146A18EF30E400BC3FF9 /* Lab_Inheritance.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F652146918EF30E400BC3FF9 /* Lab_Inheritance.1 */; };
+		F652147218EF327C00BC3FF9 /* Company.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F652147018EF327C00BC3FF9 /* Company.cpp */; };
+		F652147518EF344900BC3FF9 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F652147318EF344900BC3FF9 /* String.cpp */; };
+		F652147818EF3A0400BC3FF9 /* Vendor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F652147618EF3A0400BC3FF9 /* Vendor.cpp */; };
+		F652147B18EF3C8F00BC3FF9 /* Customer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F652147918EF3C8F00BC3FF9 /* Customer.cpp */; };
+		F652147E18EF3D6200BC3FF9 /* TravelCompany.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F652147C18EF3D6200BC3FF9 /* TravelCompany.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +33,16 @@
 		F652146418EF30E400BC3FF9 /* Lab Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab Inheritance"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F652146718EF30E400BC3FF9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F652146918EF30E400BC3FF9 /* Lab_Inheritance.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Lab_Inheritance.1; sourceTree = "<group>"; };
+		F652147018EF327C00BC3FF9 /* Company.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Company.cpp; sourceTree = "<group>"; };
+		F652147118EF327C00BC3FF9 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		F652147318EF344900BC3FF9 /* String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
+		F652147418EF344900BC3FF9 /* String.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = String.hpp; sourceTree = "<group>"; };
+		F652147618EF3A0400BC3FF9 /* Vendor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vendor.cpp; sourceTree = "<group>"; };
+		F652147718EF3A0400BC3FF9 /* Vendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vendor.h; sourceTree = "<group>"; };
+		F652147918EF3C8F00BC3FF9 /* Customer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Customer.cpp; sourceTree = "<group>"; };
+		F652147A18EF3C8F00BC3FF9 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		F652147C18EF3D6200BC3FF9 /* TravelCompany.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TravelCompany.cpp; sourceTree = "<group>"; };
+		F652147D18EF3D6200BC3FF9 /* TravelCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelCompany.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +75,18 @@
 		F652146618EF30E400BC3FF9 /* Lab Inheritance */ = {
 			isa = PBXGroup;
 			children = (
+				F652147318EF344900BC3FF9 /* String.cpp */,
+				F652147418EF344900BC3FF9 /* String.hpp */,
 				F652146718EF30E400BC3FF9 /* main.cpp */,
 				F652146918EF30E400BC3FF9 /* Lab_Inheritance.1 */,
+				F652147018EF327C00BC3FF9 /* Company.cpp */,
+				F652147118EF327C00BC3FF9 /* Company.h */,
+				F652147618EF3A0400BC3FF9 /* Vendor.cpp */,
+				F652147718EF3A0400BC3FF9 /* Vendor.h */,
+				F652147918EF3C8F00BC3FF9 /* Customer.cpp */,
+				F652147A18EF3C8F00BC3FF9 /* Customer.h */,
+				F652147C18EF3D6200BC3FF9 /* TravelCompany.cpp */,
+				F652147D18EF3D6200BC3FF9 /* TravelCompany.h */,
 			);
 			path = "Lab Inheritance";
 			sourceTree = "<group>";
@@ -117,7 +142,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F652147B18EF3C8F00BC3FF9 /* Customer.cpp in Sources */,
 				F652146818EF30E400BC3FF9 /* main.cpp in Sources */,
+				F652147818EF3A0400BC3FF9 /* Vendor.cpp in Sources */,
+				F652147518EF344900BC3FF9 /* String.cpp in Sources */,
+				F652147218EF327C00BC3FF9 /* Company.cpp in Sources */,
+				F652147E18EF3D6200BC3FF9 /* TravelCompany.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
