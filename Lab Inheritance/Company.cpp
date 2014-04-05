@@ -17,11 +17,6 @@ Company::Company(char* n, char* a, char* p, char*f)
     setFax(f);
 }
 
-const char* Company::getType()
-{
-    return "Company";
-}
-
 void Company::show()
 {
     const char* lineFormat = "%20s: %s\n";
@@ -30,6 +25,9 @@ void Company::show()
     printf(lineFormat, "Address", getAddress());
     printf(lineFormat, "Phone", getPhone());
     printf(lineFormat, "Fax", getFax());
+    const char *s = getSpecifics();
+    cout << s;
+    delete [] s, s=0;
 }
 
 void Company::setName(char * n)

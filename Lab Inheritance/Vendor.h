@@ -21,7 +21,7 @@ public:
     Vendor(char* n, char* a, char* p, char*f, char* t, char* s);
     
     const char* getType();
-    void show();
+    const char* getSpecifics();
     
     void setTaxID(char*);
     void setSpecialties(char*);

@@ -18,7 +18,7 @@ public:
     TravelCompany(char* n, char* a, char* p, char*f);
     
     const char* getType();
-    void show();
+    const char* getSpecifics();
 };
 
 #endif /* defined(__Lab_Inheritance__TravelCompany__) */

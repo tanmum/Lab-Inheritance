@@ -20,7 +20,7 @@ public:
     Customer(char* n, char* a, char* p, char*f, int s);
     
     const char* getType();
-    void show();
+    const char* getSpecifics();
     
     void setSize(int);
     int getSize();

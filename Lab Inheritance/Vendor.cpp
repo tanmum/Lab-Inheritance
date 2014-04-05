@@ -20,12 +20,13 @@ const char* Vendor::getType()
     return "Vendor";
 }
 
-void Vendor::show()
+const char* Vendor::getSpecifics()
 {
-    Company::show();
     const char* lineFormat = "%20s: %s\n";
-    printf(lineFormat, "Tax Id", getTaxID());
-    printf(lineFormat, "Specialties", getSpecialties());
+    char *result = new char[1024]{0};
+    sprintf(result, lineFormat, "Tax Id", getTaxID());
+    sprintf(result, "%s%20s: %s\n", result, "Specialties", getSpecialties());
+    return result;
 }
 
 void Vendor::setTaxID(char * t)

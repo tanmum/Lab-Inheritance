@@ -19,8 +19,10 @@ const char* TravelCompany::getType()
     return "Travel Company";
 }
 
-void TravelCompany::show()
+const char* TravelCompany::getSpecifics()
 {
-    Company::show();
     const char* lineFormat = "%20s: %s\n";
+    char *result = new char[1024]{0};
+    //sprintf(result, lineFormat, "", "");
+    return result;
 }

@@ -22,8 +22,9 @@ class Company
 public:
     Company(char* n, char* a, char* p, char*f);
     
-    virtual const char* getType();
+    virtual const char* getType() = 0;
     virtual void show();
+    virtual const char* getSpecifics() = 0;
     
     void setName(char*);
     void setAddress(char*);

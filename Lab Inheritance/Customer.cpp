@@ -19,11 +19,12 @@ const char* Customer::getType()
     return "Customer";
 }
 
-void Customer::show()
+const char* Customer::getSpecifics()
 {
-    Company::show();
     const char* lineFormat = "%20s: %d\n";
-    printf(lineFormat, "Size", getSize());
+    char* result = new char[1024]{0};
+    sprintf(result, lineFormat, "Size", getSize());
+    return result;
 }
 
 void Customer::setSize(int s)
