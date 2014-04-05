@@ -14,6 +14,18 @@ Customer::Customer(char* n, char* a, char* p, char*f, int s)
     setSize(s);
 }
 
+const char* Customer::getType()
+{
+    return "Customer";
+}
+
+void Customer::show()
+{
+    Company::show();
+    const char* lineFormat = "%20s: %d\n";
+    printf(lineFormat, "Size", getSize());
+}
+
 void Customer::setSize(int s)
 {
     size = s;

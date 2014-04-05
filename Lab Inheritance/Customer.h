@@ -19,6 +19,9 @@ class Customer : public Company
 public:
     Customer(char* n, char* a, char* p, char*f, int s);
     
+    const char* getType();
+    void show();
+    
     void setSize(int);
     int getSize();
 };

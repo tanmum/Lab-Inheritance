@@ -23,7 +23,7 @@ const char* Vendor::getType()
 void Vendor::show()
 {
     Company::show();
-    const char* lineFormat = "%-20s: %s\n";
+    const char* lineFormat = "%20s: %s\n";
     printf(lineFormat, "Tax Id", getTaxID());
     printf(lineFormat, "Specialties", getSpecialties());
 }

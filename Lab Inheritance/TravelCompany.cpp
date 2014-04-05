@@ -18,3 +18,9 @@ const char* TravelCompany::getType()
 {
     return "Travel Company";
 }
+
+void TravelCompany::show()
+{
+    Company::show();
+    const char* lineFormat = "%20s: %s\n";
+}

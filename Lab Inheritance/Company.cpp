@@ -24,7 +24,7 @@ const char* Company::getType()
 
 void Company::show()
 {
-    const char* lineFormat = "%-20s: %s\n";
+    const char* lineFormat = "%20s: %s\n";
     printf(lineFormat, "Company name", getName());
     printf(lineFormat, "Type", getType());
     printf(lineFormat, "Address", getAddress());
