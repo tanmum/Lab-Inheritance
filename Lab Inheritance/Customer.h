@@ -17,7 +17,7 @@ class Customer : public Company
     int size;
     
 public:
-    Customer();
+    Customer(char* n, char* a, char* p, char*f, int s);
     
     void setSize(int);
     int getSize();

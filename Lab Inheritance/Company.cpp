@@ -9,14 +9,27 @@
 #include "Company.h"
 #include "String.hpp"
 
-Company::Company()
+Company::Company(char* n, char* a, char* p, char*f)
 {
-    
+    setName(n);
+    setAddress(a);
+    setPhone(p);
+    setFax(f);
 }
 
 const char* Company::getType()
 {
     return "Company";
+}
+
+void Company::show()
+{
+    const char* lineFormat = "%-20s: %s\n";
+    printf(lineFormat, "Company name", getName());
+    printf(lineFormat, "Type", getType());
+    printf(lineFormat, "Address", getAddress());
+    printf(lineFormat, "Phone", getPhone());
+    printf(lineFormat, "Fax", getFax());
 }
 
 void Company::setName(char * n)

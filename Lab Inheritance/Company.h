@@ -20,10 +20,10 @@ class Company
     String phone;
     String fax;
 public:
-    Company();
+    Company(char* n, char* a, char* p, char*f);
     
-    const char* getType();
-    void show();
+    virtual const char* getType();
+    virtual void show();
     
     void setName(char*);
     void setAddress(char*);

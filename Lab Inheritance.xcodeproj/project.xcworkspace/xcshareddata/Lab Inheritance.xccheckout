@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>56E171BB-B95B-432A-8EBF-3FD866C0290E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Lab Inheritance</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C8ED26C-FD2B-4602-AFB4-093448B4B259</key>
+		<string>https://github.com/tanmum/Lab-Inheritance.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lab Inheritance.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C8ED26C-FD2B-4602-AFB4-093448B4B259</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tanmum/Lab-Inheritance.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C8ED26C-FD2B-4602-AFB4-093448B4B259</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C8ED26C-FD2B-4602-AFB4-093448B4B259</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Lab Inheritance</string>
+		</dict>
+	</array>
+</dict>
+</plist>

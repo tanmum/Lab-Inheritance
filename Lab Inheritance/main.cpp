@@ -8,13 +8,15 @@
 
 #include <iostream>
 #include "String.hpp"
+#include "Vendor.h"
 using namespace std;
 
 
 int main(int argc, const char * argv[])
 {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Company *c = new Vendor("A","b","c","d","e","f");
+    c->show();
+    delete c, c = 0;
     return 0;
 }
 

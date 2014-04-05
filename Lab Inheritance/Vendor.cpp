@@ -8,10 +8,24 @@
 
 #include "Vendor.h"
 
-Vendor::Vendor()
-: Company()
+Vendor::Vendor(char* n, char* a, char* p, char*f, char* t, char* s)
+: Company(n, a, p, f)
 {
-    
+    setTaxID(t);
+    setSpecialties(s);
+}
+
+const char* Vendor::getType()
+{
+    return "Vendor";
+}
+
+void Vendor::show()
+{
+    Company::show();
+    const char* lineFormat = "%-20s: %s\n";
+    printf(lineFormat, "Tax Id", getTaxID());
+    printf(lineFormat, "Specialties", getSpecialties());
 }
 
 void Vendor::setTaxID(char * t)

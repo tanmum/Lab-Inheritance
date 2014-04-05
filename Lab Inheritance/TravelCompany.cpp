@@ -8,8 +8,13 @@
 
 #include "TravelCompany.h"
 
-TravelCompany::TravelCompany()
-: Company()
+TravelCompany::TravelCompany(char* n, char* a, char* p, char*f)
+: Company(n, a, p, f)
 {
     
+}
+
+const char* TravelCompany::getType()
+{
+    return "Travel Company";
 }

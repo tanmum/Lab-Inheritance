@@ -8,10 +8,10 @@
 
 #include "Customer.h"
 
-Customer::Customer()
-: Company()
+Customer::Customer(char* n, char* a, char* p, char*f, int s)
+: Company(n, a, p, f)
 {
-    
+    setSize(s);
 }
 
 void Customer::setSize(int s)

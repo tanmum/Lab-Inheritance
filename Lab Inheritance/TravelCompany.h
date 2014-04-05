@@ -15,7 +15,9 @@
 class TravelCompany : public Company
 {
 public:
-    TravelCompany();
+    TravelCompany(char* n, char* a, char* p, char*f);
+    
+    const char* getType();
 };
 
 #endif /* defined(__Lab_Inheritance__TravelCompany__) */

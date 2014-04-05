@@ -18,7 +18,10 @@ class Vendor : public Company
     String taxID;
     String specialties;
 public:
-    Vendor();
+    Vendor(char* n, char* a, char* p, char*f, char* t, char* s);
+    
+    const char* getType();
+    void show();
     
     void setTaxID(char*);
     void setSpecialties(char*);
